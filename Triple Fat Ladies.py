@@ -1,4 +1,4 @@
-#https://dmoj.ca/problem/a3
+# https://dmoj.ca/problem/a3
 
 n=int(input())
 a=[]
