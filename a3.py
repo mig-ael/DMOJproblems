@@ -1,4 +1,4 @@
-# https://dmoj.ca/problem/a3
+# Triple Fat Ladies
 
 n=int(input())
 a=[]

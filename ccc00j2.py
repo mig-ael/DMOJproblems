@@ -1,4 +1,4 @@
-# https://dmoj.ca/problem/ccc00j2
+# 9966 
 
 start = int(input())
 end= int(input())
@@ -13,6 +13,6 @@ for i in range(start,end+1):
         ammount+=1
 
 
-
+#UNFINISHED
 
 print(ammount,counter)

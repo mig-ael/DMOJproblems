@@ -1,4 +1,4 @@
-# https://dmoj.ca/problem/aac1p1
+# Alpaca Shapes
 
 a,b = map(int, input().split())
 

@@ -1,4 +1,4 @@
-# https://dmoj.ca/problem/a1
+# Mispelling
 
 n = int(input())
 a=[]

@@ -1,4 +1,4 @@
-# https://dmoj.ca/problem/aac2p0
+# Koala matchmaking
 
 n = int(input())
 
