@@ -4,14 +4,14 @@ start,end = map(int,input().split())
 days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat']
 
 print(' '.join(days))
-print('  '*start, end='')
+print(' '*(((start-1)*4)+2), end='')
 
-count = 0
+count = start
 
 for i in range(1, end+1):
-    if count >= len(days):
-        count=0
-        if i>9:
+    if count == len(days):
+        
+        if i+start>start:
             print(i,end='\n')
         else:
             print()
@@ -21,6 +21,7 @@ for i in range(1, end+1):
         
         else:
             print('  ', end='')
+        count=0
     
     elif i > 8:
         print(i, end='  ')
